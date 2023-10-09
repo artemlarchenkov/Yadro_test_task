@@ -1,0 +1,7 @@
+﻿FFTW.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_fftw_execute в функции "public: class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > __cdecl FourierTransform::forward(class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > &)" (?forward@FourierTransform@@QEAA?AV?$vector@V?$complex@N@std@@V?$allocator@V?$complex@N@std@@@2@@std@@AEAV23@@Z).
+FFTW.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_fftw_plan_dft_1d в функции "public: __cdecl FourierTransform::FourierTransform(int)" (??0FourierTransform@@QEAA@H@Z).
+FFTW.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_fftw_destroy_plan в функции "public: __cdecl FourierTransform::~FourierTransform(void)" (??1FourierTransform@@QEAA@XZ).
+FFTW.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_fftw_malloc в функции "public: __cdecl FourierTransform::FourierTransform(int)" (??0FourierTransform@@QEAA@H@Z).
+FFTW.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_fftw_free в функции "public: __cdecl FourierTransform::~FourierTransform(void)" (??1FourierTransform@@QEAA@XZ).
+libfftw3-3.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\C++\My projects\FFTW\x64\Debug\FFTW.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
